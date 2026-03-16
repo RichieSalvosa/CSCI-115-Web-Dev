@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <style type="text/css">
+        .bordertable{
+            border-collapse: collapse;
+        }
+        .summary{
+            width: 400px;
+            /* border-width: 6px;
+            border-style: dashed;
+            border-color: red; */
+            border: dashed 6px red;
+        }
+        .col1{
+            width: 20%;
+        }
+        .col2{
+            width: 40%;
+        }
+        .col3{
+            width: 40%;
+        }
+        th{
+            border: dotted 2px blue;
+            padding: 10px;
+        }
+        td{
+            border:solid 3px green;
+            padding: 5px;
+        }
+        .tablebg{
+            background-color: aqua;
+        }
+        .evenrowbg{
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" class="bordertable summary tablebg">
+        <tr>
+            <th class="col1"> SN</th>
+            <th class="col2"> NAME </th>
+            <th class="col3"> Address</th>
+        </tr>
+        <tr class="evenrowbg">
+            <td> 1</td>
+            <td> Alice </td>
+            <td> Ca-1 </td>
+        </tr>
+        <tr>
+            <td> 2 </td>
+            <td> Alice-2 </td>
+            <td> Ca-2 </td>
+        </tr>
+        <tr class="evenrowbg">
+            <td> 3 </td>
+            <td> Alice-3 </td>
+            <td> Ca-3 </td>
+        </tr>
+    </table>
+    
+</body>
+</html>

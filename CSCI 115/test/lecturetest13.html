@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+</head>
+<body>
+    <form method="post" action="server.jsp">
+        <fieldset>
+            <legend>Your Profile:</legend>
+        First Name: <input type="text" size="20" name="fname"> 
+        <br>
+        Last Name: <input type="text" size="20" name="lname">
+        <br><br>
+        <!-- radio -->
+         Major: <br> <input type="radio" name="major" 
+        value="biology"> Biology <br>
+        <input type="radio" name="major" 
+        value="csci"> csci <br>
+        <input type="radio" name="major" 
+        value="history"> history <br>
+        <input type="radio" name="major" 
+        value="math"> math <br>
+        <br>
+        <!--checkbox-->
+        Course Taken <br> <input type="checkbox" name="courses" value="csci400">
+        CSCI 400 <br>
+        <input type="checkbox" name="courses" value="csci200">
+        CSCI 200 <br>
+        <input type="checkbox" name="courses" value="csci261">
+        CSCI 261 <br>
+        <input type="checkbox" name="courses" value="csci115" check="checked">
+        CSCI 115 <br>
+        <!-- select/option/dropdown -->
+        <br>
+        Cities Visited:
+        <select name="cities">
+            <option value="nanaimo">Nanaimo</option>
+            <option value="victoria">victoria</option>
+            <option value="toronto">toronto</option>
+            <option value="vancouver">vancouver</option>
+        </select>
+
+         <!-- multirow text field -->
+        <br><br>
+        Comment:<br>
+        <textarea rows="10" cols="30">
+        </textarea>
+        <br>
+        <input type="submit" value="send">
+        </fieldset>
+    </form>
+    
+</body>
+</html>
